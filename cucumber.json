@@ -1,0 +1,19 @@
+{
+    "default": {
+      "formatOptions": {
+        "snippetInterface": "async-await"
+      },
+      "paths": [
+        "E2Etests/tests/Features/**/*.feature"
+      ],
+      "require": [
+        "E2Etests/tests/steps/**/*.ts","E2Etests/corelibs/basesteps.ts"
+      ],
+      "requireModule": [
+        "ts-node/register"
+      ],
+      "format": [
+        ["html","reports/html formatter.html"]
+      ]
+    }
+  }
